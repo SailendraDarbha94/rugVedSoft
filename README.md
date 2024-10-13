@@ -3,7 +3,7 @@
 This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
 
 [Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
-
+need to edit tomorow
 ## Technologies Used
 
 - [Next.js 14](https://nextjs.org/docs/getting-started)
