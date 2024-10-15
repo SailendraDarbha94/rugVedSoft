@@ -58,14 +58,40 @@ const Page = () => {
           </CardHeader>
           <Divider />
           <CardBody>
-            <div className="w-full md:w-2/6 bg-red-400">
-              <Avatar
-                isBordered
-                className="w-20 h-20 mx-auto"
-                color="secondary"
-                src="/images/sailendra.jpg"
-              />
-              <h2 className="w-full text-center font-semibold text-xl">Dr. Sailendra</h2>
+            <div className="flex flex-wrap">
+              <div className="w-full md:w-2/6 my-2">
+                <Avatar
+                  isBordered
+                  className="w-20 h-20 mx-auto"
+                  color="secondary"
+                  src="/images/sailendra.jpg"
+                />
+                <h2 className="w-full text-center font-semibold text-xl">
+                  Sheldon Cooper
+                </h2>
+              </div>
+              <div className="w-full md:w-2/6 my-2">
+                <Avatar
+                  isBordered
+                  className="w-20 h-20 mx-auto"
+                  color="danger"
+                  src="/images/sailendra.jpg"
+                />
+                <h2 className="w-full text-center font-semibold text-xl">
+                  Dr. Sailendra
+                </h2>
+              </div>
+              <div className="w-full md:w-2/6 my-2">
+                <Avatar
+                  isBordered
+                  className="w-20 h-20 mx-auto"
+                  color="primary"
+                  src="/images/aboutus-Photoroom.png"
+                />
+                <h2 className="w-full text-center font-semibold text-xl">
+                  Nagaranjan Darbha
+                </h2>
+              </div>
             </div>
             <p className="lg:text-lg md:px-2">
               Co-Founded in the year 2018 by Ranjan & Srinivas, two committed
